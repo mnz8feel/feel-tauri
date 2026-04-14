@@ -1,0 +1,12 @@
+{
+  "$schema": "../node_modules/@tauri-apps/cli/config.schema.json",
+  "productName": "feel-tauri",
+  "version": "0.0.1",
+  "identifier": "com.feel-tauri",
+  "build": {
+    "frontendDist": "../ui-mobile/dist",
+    "devUrl": "http://localhost:27414",
+    "beforeDevCommand": "pnpm -F ui-mobile dev",
+    "beforeBuildCommand": "pnpm -F ui-mobile build"
+  }
+}
