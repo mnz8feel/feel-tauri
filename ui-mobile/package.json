@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tauri-apps/api": "^2.10.1",
+    "antd-mobile": "^5.42.3",
     "react": "^19.2.5",
     "react-dom": "^19.2.5"
   },
